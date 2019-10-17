@@ -36,4 +36,8 @@ File structure and tooling template for new projects
               a. The build script will first run lint to ensure no errors/inconsistencies and then will format the code via Prettier before providing a minified/packaged file
               b. If errors/inconsistencies exist in the code the build will fail.  Once the errors are resolved, build will run as expected and provide your file.
 
+            6. If you want to modify the App.js filename you will want to update it at:
+              a. The index.htm <script> reference path
+              b. Package.json in "main" and if you want to change the minified/build file name then change it in "build" as well.
+
           The repo includes a Utilities.js file available in /src/js/Components/Utilities
