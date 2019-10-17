@@ -1,1 +1,1 @@
-{"version":3,"sources":["scss\\_baseStyles.scss"],"names":[],"mappings":"AAAA;EACE","file":"App.dc58c3d0.css","sourceRoot":"..\\src","sourcesContent":["body {\r\n  background-color: #bada55;\r\n}\r\n"]}
+{"version":3,"sources":["scss\\_baseStyles.scss","scss\\_variables.scss"],"names":[],"mappings":"AAAA;EACE,kBCD2B","file":"App.dc58c3d0.css","sourceRoot":"..\\src","sourcesContent":["body {\r\n  background-color: $background__color--primary;\r\n}\r\n","$background__color--primary: #bada55;\r\n"]}
