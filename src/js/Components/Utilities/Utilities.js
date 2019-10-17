@@ -41,7 +41,7 @@ const Utilities = {
       "iPod",
       "MacIntel"
     ];
-    if (!!navigator.platform) {
+    if (navigator.platform) {
       while (iDevices.length) {
         if (navigator.platform === iDevices.pop()) {
           return true;
@@ -51,7 +51,7 @@ const Utilities = {
     return false;
   },
   iOSSafariTest() {
-    utilities.iOSTest() &&
+    Utilities.iOSTest() &&
     navigator.userAgent.toLowerCase().indexOf("chrome") == -1
       ? true
       : false;
