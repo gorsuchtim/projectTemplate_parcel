@@ -35,6 +35,7 @@ File structure and tooling template for new projects
             5. npm run build: run this script when you're ready to create your minified/packaged javascript file to load into CTE/Production
               a. The build script will first run lint to ensure no errors/inconsistencies and then will format the code via Prettier before providing a minified/packaged file
               b. If errors/inconsistencies exist in the code the build will fail.  Once the errors are resolved, build will run as expected and provide your file.
+              c.  Move all css/css map and js/js map files in the new build folder to the directory where you are storing your production build javascript in order to have it fully mapped
 
             6. If you want to modify the App.js filename you will want to update it at:
               a. The index.htm <script> reference path
