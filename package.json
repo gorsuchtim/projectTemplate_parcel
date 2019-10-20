@@ -4,7 +4,7 @@
   "description": "File and folder structure, tooling requirements for projects",
   "main": "src/index.htm",
   "scripts": {
-    "build": "npm run format && parcel build src/js/App.js --out-dir build --out-file App.js",
+    "build": "npm run format && parcel build --out-dir build",
     "dev": "parcel src/index.htm --out-dir dev",
     "format": "npm run lint && npm run prettier",
     "prettier": "prettier --write \"src/**/*.{js,jsx,css,htm,json}\"",
